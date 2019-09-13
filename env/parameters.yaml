@@ -1,0 +1,10 @@
+adminUser:
+  password: local:boot-cluster/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: stephen@simplestep.ca
+  token: local:boot-cluster/pipelineUser:token
+  username: jenkinsx-bot-sss
+prow:
+  hmacToken: local:boot-cluster/prow:hmacToken
